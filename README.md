@@ -35,10 +35,10 @@ You can use the train and test functions with argument `use_tensorboard=True` to
 
 ```
 # For training
-model = create_and_train_model(use_tensorboard=False)
+model = create_and_train_model(use_tensorboard=True)
 
 # For testing
-evaluate_model(model, test_images, test_poses, use_tensorboard=False)
+evaluate_model(model, test_images, test_poses, use_tensorboard=True)
 ```
 
 or you can see the results as images in the notebook itself (default value for this argument is `False`). The results will look like this:
