@@ -162,3 +162,5 @@ cython_debug/
 *.npz
 
 logs/
+
+.DS_Store
